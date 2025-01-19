@@ -8,15 +8,6 @@ import contactAnimation from "../assets/animation/contact.json";
 import Lottie from "lottie-react";
 import emailjs from "@emailjs/browser";
 
-if (
-  !process.env.SERVER_ID ||
-  !process.env.TEMPLATE_ID ||
-  !process.env.PUBLIC_KEY
-) {
-  throw new Error(
-    "SERVER_ID and TEMPLATE_ID and PUBLIC_KEY environment variables are required"
-  );
-}
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -55,7 +46,6 @@ const Contact = () => {
           Contact <span className="text-red-100">Us</span>
         </h1>
         <div className="flex flex-col lg:flex-row items-center justify-center max-w-5xl mx-auto space-y-12 lg:space-y-0 lg:space-x-12">
-          {/* Form Section */}
           <form
             className="w-full lg:w-2/3 p-10 rounded-lg shadow-lg"
             onSubmit={handlSubmit}
@@ -104,7 +94,6 @@ const Contact = () => {
               Send
             </Button>
           </form>
-          {/* Animation Section */}
           <div className="w-full lg:w-1/3 flex items-center justify-center">
             <div className="">
               <Lottie
