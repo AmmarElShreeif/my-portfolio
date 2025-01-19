@@ -4,10 +4,7 @@ import { Button } from "./ui/button";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { cn } from "@/lib/utils";
-import contactAnimation from "../assets/animation/contact.json";
-import Lottie from "lottie-react";
 import emailjs from "@emailjs/browser";
-
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -94,14 +91,6 @@ const Contact = () => {
               Send
             </Button>
           </form>
-          <div className="w-full lg:w-1/3 flex items-center justify-center">
-            <div className="">
-              <Lottie
-                style={{ height: 500 }}
-                animationData={contactAnimation}
-              />
-            </div>
-          </div>
         </div>
       </div>
     </div>
