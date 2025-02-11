@@ -106,6 +106,7 @@ const Contact = () => {
               type="submit"
               variant="secondary"
               className="py-5 w-1/2 mx-auto text-sm font-bold"
+              onClick={handlSubmit}
             >
               Send
             </Button>
