@@ -19,7 +19,7 @@ const Hero = () => {
             Hi! I&apos;m Ammar, a MERN Developer based in Egypt.
           </div>
           <Button variant="outline" size="lg" className="text-xl mt-10">
-            View My Projects {<FaLocationArrow />}
+            <a href='#projects'>View My Projects {<FaLocationArrow />}</a>
           </Button>
         </div>
       </div>
