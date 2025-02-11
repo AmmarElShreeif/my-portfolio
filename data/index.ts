@@ -15,7 +15,7 @@ export const projects = [
     des: "On this site, I review my experience in React Js, React Router, Redux, and file organization",
     img: "/projects/Bistro.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/redux.svg"],
-    link: "/ui.earth.com",
+    link: "https://bistro-22e6b.web.app/",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/projects/crypto.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.yoom.com",
+    link: "https://cryptohube-f7d22.firebaseapp.com",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/projects/ecommerce.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://e-commerce-project-one-amber.vercel.app/",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.apple.com",
+    link: "#",
   },
 ];
 export const Experiences = [
