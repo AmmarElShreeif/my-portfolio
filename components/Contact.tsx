@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     <div className="py-20" id="contact">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-2 md:px-6">
         <h1 className="heading">
           Contact <span className="text-red-100">Us</span>
         </h1>
