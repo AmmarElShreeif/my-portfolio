@@ -33,7 +33,7 @@ const Contact = () => {
         "NEXT_PUBLIC_SERVER_ID or NEXT_PUBLIC_TEMPLATE_ID environment variable is not set"
       );
     }
-
+ 
     const templateParams = {
       from_name: name,
       from_email: email,
